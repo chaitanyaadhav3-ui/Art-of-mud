@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clay & Soul | Pottery Club</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">🏺 Clay & Soul</a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="navMenu" class="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#workshops">Workshops</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#media">Media</a>
+      <a href="#join">Join Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">CREATE • CONNECT • CRAFT</p>
+        <h1>Shape Your Creativity with Clay</h1>
+        <p>
+          Discover the joy of pottery, create handmade treasures,
+          and connect with a community of creative souls.
+        </p>
+        <a href="#workshops" class="btn">Explore Workshops</a>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="about-image">
+        <img
+          src="image/OIP.webp"
+          alt="Handmade pottery displayed in a studio"
+          loading="lazy">
+      </div>
+      <div class="about-content">
+        <p class="eyebrow">OUR STORY</p>
+        <h2>A Little Clay, A Lot of Love</h2>
+        <p>
+          Clay & Soul is a creative community for people who love
+          handmade art. We bring people together to learn pottery,
+          explore their imagination, and enjoy making things by hand.
+        </p>
+        <p>
+          Whether you are a beginner or an experienced artist,
+          there is a place for you here.
+        </p>
+      </div>
+    </section>
+
+    <section id="workshops" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">LEARN SOMETHING NEW</p>
+        <h2>Our Workshops</h2>
+        <p>Find your favorite way to work with clay.</p>
+      </div>
+
+      <div class="card-container">
+        <article class="workshop-card">
+          <img
+            src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80"
+            alt="Potter shaping clay on a pottery wheel"
+            loading="lazy">
+          <div class="card-content">
+            <h3>Pottery Wheel</h3>
+            <p>Learn to shape clay into beautiful bowls, cups, and pots.</p>
+            <span class="tag">Beginner Friendly</span>
+          </div>
+        </article>
+
+        <article class="workshop-card">
+          <img
+            src="https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?auto=format&fit=crop&w=700&q=80"
+            alt="Creative handmade pottery and crafts"
+            loading="lazy">
+          <div class="card-content">
+            <h3>Hand Building</h3>
+            <p>Create unique clay art using simple hand-building techniques.</p>
+            <span class="tag">Creative Art</span>
+          </div>
+        </article>
+
+        <article class="workshop-card">
+          <img
+            src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=700&q=80"
+            alt="Decorative ceramic pottery"
+            loading="lazy">
+          <div class="card-content">
+            <h3>Ceramic Painting</h3>
+            <p>Add colors, patterns, and your own personality to pottery.</p>
+            <span class="tag">All Skill Levels</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="section-heading">
+        <p class="eyebrow">MADE BY HAND</p>
+        <h2>Our Pottery Gallery</h2>
+        <p>Every piece tells its own story.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <img
+          src="https://images.unsplash.com/photo-1576021182211-9ea8dced3690?auto=format&fit=crop&w=700&q=80"
+          alt="Handmade ceramic bowl" loading="lazy">
+        <img
+          src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=700&q=80"
+          alt="Artistic pottery pieces" loading="lazy">
+        <img
+          src="https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?auto=format&fit=crop&w=700&q=80"
+          alt="Handcrafted ceramic artwork" loading="lazy">
+      </div>
+    </section>
+
+    <section id="media" class="section media-section">
+      <div class="section-heading">
+        <p class="eyebrow">WATCH & LISTEN</p>
+        <h2>Experience the Art</h2>
+        <p>Enjoy a little creative inspiration.</p>
+      </div>
+
+      <div class="media-grid">
+        <div class="media-card">
+          <h3>Relaxing Background Audio</h3>
+          <p>Play an audio file from your project folder.</p>
+          <audio controls>
+            <source src="image/audio/zephiramusic-relaxing-lo-fi-587547.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+          </audio>
+          <p class="small-note">
+            Add your own audio file at audio/pottery-music.mp3.
+          </p>
+        </div>
+
+        <div class="media-card">
+          <h3>Pottery Workshop Video</h3>
+         
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HgKodiI2MMc?si=OBCpNwjXKNruLTtr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+          <p class="small-note">
+            Add your own video at videos/pottery-workshop.mp4.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="join" class="section join-section">
+      <div class="section-heading">
+        <p class="eyebrow">BECOME A MEMBER</p>
+        <h2>Join Our Pottery Club</h2>
+        <p>Start your creative journey with us.</p>
+      </div>
+
+      <form id="joinForm" class="join-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name"
+          placeholder="Enter your full name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email"
+          placeholder="Enter your email" required>
+
+        <label for="workshop">Choose a Workshop</label>
+        <select id="workshop" name="workshop" required>
+          <option value="">Select a workshop</option>
+          <option value="Pottery Wheel">Pottery Wheel</option>
+          <option value="Hand Building">Hand Building</option>
+          <option value="Ceramic Painting">Ceramic Painting</option>
+        </select>
+
+        <button type="submit" class="btn">Join the Club</button>
+        <p id="formMessage" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p> Clay & Soul — Create something beautiful.</p>
+    <p>Made with love and a little clay.</p>
+    <p>&copy; 2026 Clay & Soul Pottery Club</p>
+  </footer>
+
+</body>
+</html>
